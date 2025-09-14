@@ -15,7 +15,7 @@ Designed to run on **Windows** and **Linux/macOS**, showcasing fundamentals like
 
 ---
 
-## ⚙️ Requirements
+##  Requirements
 - Python 3.8+
 - Packages: `psutil`, `colorama`  
   Install with:
@@ -23,7 +23,7 @@ Designed to run on **Windows** and **Linux/macOS**, showcasing fundamentals like
   pip install -r requirements.txt
   ```
 
-## ▶️ Run
+##  Run
 ```bash
 python -m system_utility
 ```
@@ -32,7 +32,7 @@ or
 python system_utility/main.py
 ```
 
-## 🧭 Menu Features
+##  Menu Features
 1. **System Info** – OS, Python version, CPU cores, architecture, (uptime if available).
 2. **List Processes** – Top processes (CPU/Memory). Uses `psutil` when available, falls back to native commands.
 3. **Check File Permissions** – Read/Write/Execute and UNIX-style flags.
@@ -42,12 +42,12 @@ python system_utility/main.py
 7. **Ping Host** – Cross‑platform ping (`ping -c 1` on Linux/macOS, `ping -n 1` on Windows).
 8. **Monitor CPU/RAM (Bonus)** – Live monitor for a few seconds (requires `psutil`).
 
-## 📝 Notes
+##  Notes
 - Environment variable changes apply **only to the current process**.
 - Some features degrade gracefully if `psutil` is not installed.
 - Ping requires the `ping` executable to be available in your system `PATH`.
 
-## 📦 Project Layout
+##  Project Layout
 ```
 python-system-utility/
 ├─ system_utility/
@@ -61,7 +61,7 @@ python-system-utility/
 └─ README.md
 ```
 
-## ✅ Example Session
+##  Example Session
 ```
 [1] System info
 [2] List processes
