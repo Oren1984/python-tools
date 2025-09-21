@@ -1,3 +1,6 @@
+# Menu module for system_utility
+# Handles user interaction and option selection
+
 from typing import Optional
 from colorama import Fore, Style, init as colorama_init
 
