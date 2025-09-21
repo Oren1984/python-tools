@@ -1,3 +1,6 @@
+# Utility functions for system_utility
+# Provides common helpers reused across the tool
+
 import os
 import sys
 import time
