@@ -1,2 +1,5 @@
+# Python dependencies for the system_utility tool
+# Includes psutil for system info and colorama for colored output
+
 psutil>=5.9
 colorama>=0.4
