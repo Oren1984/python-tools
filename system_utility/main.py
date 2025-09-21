@@ -1,3 +1,6 @@
+# Entry point for the system_utility tool
+# Provides CLI interface to run different utilities
+
 import json
 import sys
 from colorama import Fore, Style
